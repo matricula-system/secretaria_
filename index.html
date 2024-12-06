@@ -19,4 +19,105 @@
 
         /* Cabeçalho */
         header {
-     
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header img {
+            max-width: 200px; /* Ajuste o tamanho da logomarca conforme necessário */
+        }
+
+        /* Retângulo cinza */
+        .rectangle {
+            background-color: #d3d3d3; /* Cor cinza */
+            text-align: center;
+            padding: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Comprovante digital */
+        .comprovante {
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 20px;
+        }
+
+        /* Layout principal */
+        .main-content {
+            display: flex;
+            padding: 40px;
+            justify-content: space-between;
+        }
+
+        .text-section {
+            flex: 1;
+            padding-left: 20px;
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-section img {
+            max-width: 150px;
+            max-height: 200px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            font-style: italic;
+            color: gray;
+            font-size: 12px;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Caminho para a logomarca -->
+        <img src="https://github.com/matricula-system/secretaria_/raw/main/imagens/PO╠üS_UFG_POSITIVO-01.png" alt="Logomarca da Instituição">
+    </header>
+
+    <!-- Retângulo cinza -->
+    <div class="rectangle">
+        A aluna encontra-se devidamente matriculada na instituição
+    </div>
+
+    <!-- Comprovante Digital -->
+    <div class="comprovante">
+        Este é um comprovante digital de matrícula.
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+        <!-- Texto -->
+        <div class="text-section">
+            <p>Luciana Corrêa Machado Rodrigues</p>
+            <p>Matrícula: 21059-7</p>
+        </div>
+
+        <!-- Imagem -->
+        <div class="image-section">
+            <!-- Caminho para a foto da aluna -->
+            <img src="https://github.com/matricula-system/secretaria_/raw/main/imagens/IMG-20241204-WA0010.jpg" alt="Imagem da Aluna">
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        Universidade Federal de Goiás. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
